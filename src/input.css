@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-  body::before{
-    display: block;
-    content: '';
-    height: 56px;
-  }
+@layer components{ 
   button, input, textarea{
     @apply outline-0
   }
