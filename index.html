@@ -16,19 +16,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/385454e3a7.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
 
 <body class="bg-gray-100">
-  <main class="bg-slate-900 pt-top">
+  <main class="bg-slate-900 pt-top pb-top">
 
     <section class="container mx-auto px-10 font-source">
       <div class="grid grid-cols-2">
         <div class="left">
           <div class="fixed top-100">
             <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl pb-2 text-heading">Nick Roberts</h1>
-            <h3 class="font-bold text-xl text-white">Web Developer</h3>
+            <h3 class="font-bold text-xl text-white mb-3">Web Developer</h3>
+            <div class="text-white flex flex-col">
+              <div class="mb-1"><i class="fa-solid fa-envelope"></i><span class="ml-3">n26roberts@gmail.com</span></div>
+              <div class="mb-1"><i class="fa-solid fa-phone"></i><span class="ml-3">04 1397 3300</span></div>
+              <a href="https://www.linkedin.com/in/nick-roberts-b473191b6/" target="_blank"><i class="fa-brands fa-linkedin"></i><span class="ml-3">LinkedIn</span></a>
+            </div>
           </div>
         </div>
         <div class="right">
@@ -38,9 +44,16 @@
           </div>
           <div class="experience">
             <h2 class="font-bold text-white text-3xl mb-10">Experience</h2>
+            <p class="font-bold text-white text-2xl">Chisel Productions</p>
+            <p class="text-l text-body mb-4">Mar 2021 - Mar 2024</p>
+            <ul class="text-white list-disc ml-5">
+              <li>Developed a number of Wordpress web apps using technologies such as HTML/PHP/JS/Sass</li>
+              <li>Created user friendly CMS using popular Wordpress plugins such as Advanced Custom Fields and Formidable</li>
+              <li>Experience in using other popular design and development software such as Figma and Monday</li>
+            </ul>
           </div>
           <div class="site-links text-white">
-            <h2 class="font-bold text-3xl mb-10">Projects</h2>
+            <h2 class="font-bold text-heading text-3xl mb-10 mt-10">Projects</h2>
             <a class="group flex mb-10" href="https://australianbirthstories.com/" target="_blank">
               <div class="w-1/4 border-4 border-body rounded transition duration-400 ease-in-out group-hover:border-heading"><img src="public\img\abs-cover.PNG" alt=""></div>
               <div class="ml-8 transition duration-400 ease-in-out group-hover:text-heading">

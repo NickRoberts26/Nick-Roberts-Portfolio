@@ -1,3 +1,4 @@
+/*
 // This is for the navbar only.
 let hamburger = document.getElementById("hamburger");
 let links = document.getElementById("links");
@@ -37,3 +38,4 @@ function changeMenuState() {
 function removeActive() {
 	hamburger.classList.remove("active");
 }
+*/
